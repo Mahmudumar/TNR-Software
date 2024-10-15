@@ -61,7 +61,8 @@ section {
     color: #1a7bbb;
 }
 
-.CTA button {
+.CTA a {
+    text-decoration: none;
     outline-style: none;
     border-style: none;
     background-color: #1a7bbb;
