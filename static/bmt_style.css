@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: top;
+}
+
+.brand img {
+    padding-right: 20px;
+}
+
+.brand-text {
+    display: flex;
+    font-size: 10px;
+}
+
+.brand #bobsi {
+    color: #199e24;
+}
+
+.brand #mo {
+    color: #1a7bbb;
+}
+
+.brand #timer {
+    color: #111;
+    margin-left: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 2pc;
+    font-weight: 800;
+    text-align: center;
+}
+
+.main h1 span#col2 {
+    color: #199e24;
+}
+
+.main h1 span#col3 {
+    color: #1a7bbb;
+}
+
+.CTA button {
+    outline-style: none;
+    border-style: none;
+    background-color: #1a7bbb;
+    color: #eee;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #00a3ff;
+    /* Blue */
+    color: #fff;
+    /* White for text */
+}

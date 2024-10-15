@@ -1,0 +1,114 @@
+/*Mobile */
+
+
+/* Apply Roboto font to body text */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Apply Nunito font to all headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #111111;
+    /* White */
+    color: #00a3ff;
+    /* Dark gray for text */
+}
+
+header {
+    display: flex;
+    background-color: #00a3ff;
+}
+
+header .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #logo-container {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #111111;
+    margin-right: 20px;
+}
+
+header #logo {
+    height: 50%;
+    /* background-color: #007bff; */
+}
+
+header #brand-name {
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-bottom: 2px;
+}
+
+section p {
+    color: #fff
+}
+
+.software .categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories>div {
+    margin: 10px;
+}
+
+section li {
+    list-style: square;
+}
+
+section a {
+    text-decoration: none;
+    color: #fd7e14;
+}
+
+section a:hover {
+    color: #00a3ff;
+}
+
+
+/*CTA buttons*/
+
+.btn-primary {
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+}
+
+footer {
+    background-color: #00a3ff;
+    /* Blue */
+    color: #fff;
+    /* White for text */
+}
